@@ -42,6 +42,11 @@ set wrap "Wrap lines
 
 filetype plugin indent on
 
+if has("statusline")
+ set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
+endif
+
+set laststatus=2
 
 
 
