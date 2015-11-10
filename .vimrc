@@ -1,4 +1,3 @@
-set backspace=2         " backspace in insert mode works like normal editor
 syntax on               " syntax highlighting
 filetype indent on      " activates indenting for files
 set autoindent          " auto indenting
@@ -31,8 +30,9 @@ set expandtab " Use spaces instead of tabs
 
 set smarttab " Be smart when using tabs ;)
 
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
+set backspace=2         " backspace in insert mode works like normal editor
 
 set ai "Auto indent
 set si "Smart indent
