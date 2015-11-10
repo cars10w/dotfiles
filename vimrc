@@ -101,6 +101,9 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
+" Tagbar
+Plugin 'majutsushi/tagbar'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -132,3 +135,5 @@ au BufNewFile,BufRead *.adoc set filetype=asciidoc
 let g:vim_markdown_folding_disabled=1
 
 map <C-n> :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
+
