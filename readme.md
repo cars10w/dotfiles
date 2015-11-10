@@ -1,2 +1,3 @@
-Just my VIM configuration.
+# cawim's VIM configuration #
 
+vimrc et al !
