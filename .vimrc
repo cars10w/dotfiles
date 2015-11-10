@@ -93,6 +93,8 @@ Plugin 'kien/ctrlp.vim'
 
 Plugin 'bling/vim-airline'
 
+Plugin 'chriskempson/vim-tomorrow-theme'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -114,7 +116,7 @@ filetype plugin indent on    " required
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 if has('gui_running')
-  colorscheme solarized
+  colorscheme Tomorrow-Night-Bright
   :set guioptions-=T
 endif
 set background=dark
