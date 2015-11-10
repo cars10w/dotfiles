@@ -87,7 +87,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized.git' 
 
 Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
+Plugin 'plasticboy/vim-markdown' " needs tabular plugin
 
 Plugin 'kien/ctrlp.vim'
 
