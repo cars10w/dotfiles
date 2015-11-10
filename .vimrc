@@ -85,6 +85,7 @@ Plugin 'VundleVim/Vundle.vim'
 "
 
 Plugin 'altercation/vim-colors-solarized.git' 
+
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
@@ -113,4 +114,6 @@ if has('gui_running')
   :set guioptions-=T
 endif
 set background=dark
+
+au BufNewFile,BufRead *.adoc set filetype=asciidoc
 
