@@ -110,6 +110,7 @@ filetype plugin indent on    " required
 
 if has('gui_running')
   colorscheme solarized
+  :set guioptions-=T
 endif
 set background=dark
 
