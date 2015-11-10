@@ -15,7 +15,7 @@ set wildmode=list:longest " Make wildmenu behave like bash completion. Finding c
 set ruler "Always show current position
 set ignorecase " Ignore case when searching
 
-set smartcase " When searching try to be smart about cases 
+set smartcase " When searching try to be smart about cases
 
 set hlsearch " Highlight search results
 
@@ -84,7 +84,7 @@ Plugin 'VundleVim/Vundle.vim'
 "
 
 " Some nice colorschemes
-Plugin 'altercation/vim-colors-solarized.git' 
+Plugin 'altercation/vim-colors-solarized.git'
 Plugin 'chriskempson/vim-tomorrow-theme'
 
 " Markdown support (needs tabular plugin)
