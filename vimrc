@@ -130,3 +130,4 @@ set background=dark
 
 au BufNewFile,BufRead *.adoc set filetype=asciidoc
 
+map <C-n> :NERDTreeToggle<CR>
