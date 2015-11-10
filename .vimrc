@@ -54,8 +54,13 @@ set laststatus=2
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
+if has('win32')
+set rtp+=~/vimfiles/bundle/Vundle.vim
+call vundle#begin('~/vimfiles/bundle/')
+else
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+endif
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 "
