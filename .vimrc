@@ -106,5 +106,8 @@ filetype plugin indent on    " required
 " End of Vundle stuff
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme solarized
+if has('gui_running')
+  colorscheme solarized
+endif
 set background=dark
+
