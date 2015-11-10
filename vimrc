@@ -129,4 +129,6 @@ set background=dark
 
 au BufNewFile,BufRead *.adoc set filetype=asciidoc
 
+let g:vim_markdown_folding_disabled=1
+
 map <C-n> :NERDTreeToggle<CR>
