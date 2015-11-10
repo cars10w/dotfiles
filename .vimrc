@@ -84,17 +84,21 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'user/L9', {'name': 'newL9'}
 "
 
+" Some nice colorschemes
 Plugin 'altercation/vim-colors-solarized.git' 
-
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown' " needs tabular plugin
-
-Plugin 'kien/ctrlp.vim'
-
-Plugin 'bling/vim-airline'
-
 Plugin 'chriskempson/vim-tomorrow-theme'
 
+" Markdown support (needs tabular plugin)
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
+" Ctrl-P
+Plugin 'kien/ctrlp.vim'
+
+" Airline - Nice statusbars
+Plugin 'bling/vim-airline'
+
+" NERDTree file browser
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
