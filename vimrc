@@ -130,6 +130,7 @@ filetype plugin indent on    " required
 if has('gui_running')
   colorscheme Tomorrow-Night-Bright
   set guioptions-=T
+  set lines=50 columns=100
 endif
 set background=dark
 
