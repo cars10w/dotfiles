@@ -129,7 +129,7 @@ filetype plugin indent on    " required
 
 if has('gui_running')
   colorscheme Tomorrow-Night-Bright
-  :set guioptions-=T
+  set guioptions-=T
 endif
 set background=dark
 
