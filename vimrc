@@ -44,6 +44,9 @@ endif
 
 set laststatus=2
 
+let mapleader = ","
+let g:mapleader = ","
+let maplocalleader = ","
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
