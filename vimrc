@@ -114,7 +114,7 @@ Plugin 'elzr/vim-json'
 Plugin 'elixir-lang/vim-elixir'
 
 " todotxt.com
-Plugin 'freitass/todo.txt-vim'
+"Plugin 'freitass/todo.txt-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
