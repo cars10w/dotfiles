@@ -57,8 +57,8 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 if has('win32')
-set rtp+=~/vimfiles/bundle/Vundle.vim
-call vundle#begin('~/vimfiles/bundle/')
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin('~/.vim/bundle/')
 else
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
