@@ -86,36 +86,48 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'user/L9', {'name': 'newL9'}
 "
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Some nice colorschemes
 Plugin 'altercation/vim-colors-solarized.git'
 Plugin 'chriskempson/vim-tomorrow-theme'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Markdown support (needs tabular plugin)
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Ctrl-P
 Plugin 'kien/ctrlp.vim'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Airline - Nice statusbars
 Plugin 'bling/vim-airline'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " NERDTree file browser
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Tagbar
 Plugin 'majutsushi/tagbar'
 
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Better JSON
 Plugin 'elzr/vim-json'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " elixir-lang
 Plugin 'elixir-lang/vim-elixir'
 
 " todotxt.com
 "Plugin 'freitass/todo.txt-vim'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
