@@ -148,6 +148,7 @@ filetype plugin indent on    " required
 " End of Vundle stuff
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Color settings
 if has('gui_running')
   colorscheme Tomorrow-Night-Bright
   set guioptions-=T
@@ -155,5 +156,6 @@ if has('gui_running')
 endif
 set background=dark
 
+" Other stuff
 au BufNewFile,BufRead *.adoc set filetype=asciidoc
 
