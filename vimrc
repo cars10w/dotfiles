@@ -96,6 +96,7 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
+let g:vim_markdown_folding_disabled=1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Ctrl-P
@@ -110,11 +111,13 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
+map <C-n> :NERDTreeToggle<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Tagbar
 Plugin 'majutsushi/tagbar'
 
+nmap <F8> :TagbarToggle<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Better JSON
@@ -153,9 +156,4 @@ endif
 set background=dark
 
 au BufNewFile,BufRead *.adoc set filetype=asciidoc
-
-let g:vim_markdown_folding_disabled=1
-
-map <C-n> :NERDTreeToggle<CR>
-nmap <F8> :TagbarToggle<CR>
 
