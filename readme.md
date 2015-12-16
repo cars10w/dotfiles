@@ -1,3 +1,4 @@
-# cawim's VIM configuration #
+# My dotfiles #
 
-vimrc et al !
+vimrc, bash, et al !
+
