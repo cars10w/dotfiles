@@ -19,7 +19,10 @@ set smartcase             " When searching try to be smart about cases
 
 set hlsearch              " Highlight search results
 
+set incsearch             " incremental search
+
 set showmatch             " Show matching brackets when text indicator is over them
+set mat=2                 " How many tenths of a second to blink when matching brackets
 
 set encoding=utf8         " Set utf8 as standard encoding and en_US as the standard language
 
@@ -29,8 +32,13 @@ set expandtab             " Use spaces instead of tabs
 
 set smarttab              " Be smart when using tabs ;)
 
+set lazyredraw            " Do not redraw while executing macros
+
+set magic                 " For regexp turn magic on
+
 set shiftwidth=2
 set tabstop=2
+set softtabstop=2
 set backspace=2           " backspace in insert mode works like normal editor
 
 set ai                    " Auto indent
@@ -158,4 +166,16 @@ set background=dark
 
 " Other stuff
 au BufNewFile,BufRead *.adoc set filetype=asciidoc
+
+" Disable highlight when <leader><cr> is pressed
+map <silent> <leader><cr> :noh<cr>
+
+" Switch CWD to the directory of the open buffer
+map <leader>cd :cd %:p:h<cr>:pwd<cr>
+
+" Quickly open a buffer for scribble
+" map <leader>q :e ~/buffer<cr>
+
+" Quickly open a markdown buffer for scribble
+" map <leader>x :e ~/buffer.md<cr>
 
