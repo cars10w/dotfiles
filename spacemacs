@@ -35,6 +35,7 @@ values."
      ;; spell-checking
      syntax-checking
      ;; version-control
+     deft
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -244,6 +245,14 @@ This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
   (when (eq system-type 'darwin)
     (setq mac-right-option-modifier 'none))
+
+  (setq deft-extension "org")
+  (setq deft-text-mode 'org-mode)
+  (setq deft-directory "~/org")
+;;  (setq deft-use-filename-as-title t)
+
+
+
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
