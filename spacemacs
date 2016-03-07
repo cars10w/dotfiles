@@ -49,7 +49,9 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '(
+                                      simpleclip
+                                      )
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages '()
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
@@ -264,6 +266,8 @@ layers configuration. You are free to put any user code."
   (defun dotspacemacs/config ()
     (add-hook 'alchemist-mode-hook 'company-mode)
     )
+
+  (simpleclip-mode 1)
 
   )
 
