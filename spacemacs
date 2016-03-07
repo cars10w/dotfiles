@@ -42,7 +42,6 @@ values."
      elixir
      html
      colors
-     editorconfig
      themes-megapack
      perspectives
      company-mode
