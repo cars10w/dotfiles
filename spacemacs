@@ -262,6 +262,8 @@ layers configuration. You are free to put any user code."
   (when (eq system-type 'darwin)
     (setq mac-right-option-modifier 'none))
 
+  (setq org-agenda-files '("~/org/"))
+
   (setq deft-extension "org")
   (setq deft-text-mode 'org-mode)
   (setq deft-directory "~/org")
