@@ -270,6 +270,7 @@ layers configuration. You are free to put any user code."
 ;;  (setq deft-use-filename-as-title t)
 
   (defun dotspacemacs/config ()
+    (server-start)
     (add-hook 'alchemist-mode-hook 'company-mode)
     )
 
