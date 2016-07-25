@@ -279,6 +279,9 @@ layers configuration. You are free to put any user code."
 
   (setq powerline-default-separator 'arrow)
 
+  ;; vertical marker at colum 80
+  (define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
+  (global-fci-mode 1)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
