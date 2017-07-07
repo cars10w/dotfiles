@@ -42,17 +42,13 @@ values."
      elixir
      java
      javascript
-     (c-c++
-       :variables
-       c-c++-enable-clang-support t
-     )
+     c-c++
      cscope
      html
      colors
      themes-megapack
      git
      asciidoc
-     mineo-rtags
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
